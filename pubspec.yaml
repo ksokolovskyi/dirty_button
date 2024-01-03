@@ -1,0 +1,27 @@
+name: dirty_button
+description: "Button, which collects fingerprints after each tap"
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: 5.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fingerprint-0.png
+    - assets/fingerprint-1.png
+    - assets/fingerprint-2.png
+    - assets/fingerprint-3.png
+    - assets/fingerprint-4.png
